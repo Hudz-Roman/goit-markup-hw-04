@@ -145,7 +145,6 @@ ul {
 .hero-section {
   background-color: var(--dark);
   padding: 188px 0;
-  /* margin-bottom: 120px; */
   text-align: center;
 }
 
@@ -171,7 +170,6 @@ ul {
 }
 
 .container.advantages {
-  /* margin-bottom: 120px; */
 }
 
 .subtitle {
@@ -208,17 +206,11 @@ ul {
   padding: 120px 0;
 }
 
-.team-photo {
-  /* margin-bottom: 32px; */
-}
-
 .description.team {
   text-align: center;
-  /* padding-bottom: 32px; */
 }
 
 .second-subtitle {
-  /* text-align: center; */
   margin-bottom: 8px;
   color: var(--dark);
   margin-top: 0;
@@ -364,7 +356,6 @@ ul {
 .footer-section {
   padding: 100px 0;
   background-color: var(--dark);
-  /* margin-top: 120px; */
 }
 
 .logo-studio-white {
