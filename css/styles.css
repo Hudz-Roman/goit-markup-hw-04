@@ -179,6 +179,18 @@ ul {
 
 /* Advantages */
 
+.advantages-logo.list {
+  gap: 24px;
+}
+
+.advantages-logo.item {
+  padding: 24px 102.14px;
+  background-color: var(--light);
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+}
+
 .hidden-text {
   visibility: hidden;
   display: none;
@@ -398,6 +410,29 @@ ul {
 }
 
 /* Customers */
+
+.customer.subtitle {
+  margin-bottom: 72px;
+}
+
+.customer.container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customer.list {
+  gap: 24px;
+  align-items: center;
+}
+
+.customer-item {
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
+  border: 1px solid var(--subtle-text);
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 /* Footer */
 
