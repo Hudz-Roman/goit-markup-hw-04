@@ -186,13 +186,13 @@ ul {
   gap: 24px;
 }
 
-.advantages-logo.item {
+/* .advantages-logo.item {
   padding: 24px 102.14px;
   background-color: var(--light);
   margin-bottom: 8px;
   width: 264px;
   height: 112px;
-}
+} */
 
 .hidden-text {
   visibility: hidden;
@@ -216,6 +216,18 @@ ul {
 
 .advantages.item {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.icon-container {
+  display: flex;
+  padding: 24px 102.14px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  width: 264px;
+  background-color: var(--light);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /* What are we doing */
@@ -457,8 +469,8 @@ ul {
 
 .customer.link:focus,
 .customer.link:hover {
-  color: var(--primary-brand);
-  border-color: var(--primary-brand);
+  color: var(--pressed-state);
+  border-color: var(--pressed-state);
 }
 
 .customer.icon {
@@ -473,7 +485,7 @@ ul {
 }
 
 .logo-studio-white {
-  color: var(--light);
+  color: var(--white-text);
 }
 
 .logo.link.footer {
@@ -500,10 +512,6 @@ ul {
   gap: 120px;
 }
 
-/* .footer-social-links {
-  margin-left: 120px;
-} */
-
 .footer-social.list {
   gap: 16px;
 }
@@ -516,7 +524,7 @@ ul {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  background-color: var(--pressed-state);
+  background-color: var(--primary-brand);
 }
 
 .footer-social.link:focus,
